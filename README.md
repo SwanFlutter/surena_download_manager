@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="assets/logo/logo_splash.png" alt="surena_download_manager logo" width="180"/>
+<img width="992" height="992" alt="logo_splash" src="https://github.com/user-attachments/assets/6347583d-5cfd-432a-9c6c-3e7668e6b5a3" />
+
 
 # SurenaDownloadManager
 
@@ -85,48 +86,16 @@ Load the unpacked extension for your browser from `chrome://extensions`
 - `SDM_Extension_Edge/` — Microsoft Edge
 - `SDM_Extension_Firefox/` — Firefox
 
-### 🚀 Getting Started
-
-**Prerequisites:** Flutter SDK 3.47+ (Dart 3.13+), Windows 10/11 with Visual
-Studio Desktop workload.
-
-> ℹ️ The download stack (`download_engine`, `download_persistence`,
-> `queue_scheduler`, `system_integrator`, `clipboard_monitor`, `net_tools`) is
-> developed as **companion local packages** and referenced via `path:` in
-> `pubspec.yaml` — clone them from the same owner, or point the paths to your copies.
-
-```bash
-flutter pub get
-flutter run -d windows          # development
-flutter build windows --release # release build
-```
-
-Or use the one-shot script: **`build_windows.bat`**.
-The debug binary lands in `build/windows/x64/runner/Debug/`.
 
 **Login:** the app uses a local session store — any valid e-mail plus a password
 of at least 8 characters signs you in (e.g. `you@example.com` / `Password123`).
 
-### 🗺️ Roadmap
 
-- Wire `queue_scheduler.TaskScheduler` into the Scheduler UI
-- OS-level notifications (tray is ready via `system_integrator`)
-- Full multi-OS parity hardening (Linux / macOS)
-- Cloud Sync, Automation and Storage sections (currently "coming soon" in the shell)
-
-### 📚 Documentation
-
-| File | Contents |
-|---|---|
-| [`AI_CONTEXT.md`](AI_CONTEXT.md) | Complete architecture map for humans and AIs |
-| [`PACKAGE_PROMPTS.md`](PACKAGE_PROMPTS.md) | Build prompts & integration blueprint for the 6 companion packages |
-| [`AGENT.md`](AGENT.md) | Mandatory coding rules |
-| [`README_NATIVE_MIGRATION.md`](README_NATIVE_MIGRATION.md) | Notes on native (non-Flutter) migration |
 
 ### 📄 License
 
 Proprietary — free 30-day trial, Pro by annual subscription.
-All rights reserved © SurenaManager team.
+All rights reserved © SwanFlutter.
 
 ---
 
@@ -199,24 +168,7 @@ Load unpacked) نصب کنید:
 - `SDM_Extension_Edge/` — مایکروسافت اج
 - `SDM_Extension_Firefox/` — فایرفاکس
 
-### 🚀 شروع سریع
 
-**پیش‌نیازها:** فلاتر ۳.۴۷ به بالا (دارت ۳.۱۳+)، ویندوز ۱۰/۱۱ با ورک‌لود
-Visual Studio Desktop.
-
-> ℹ️ استک دانلود (`download_engine`، `download_persistence`، `queue_scheduler`،
-> `system_integrator`، `clipboard_monitor`، `net_tools`) به‌صورت **پکیج‌های
-> محلیِ همراه** توسعه یافته و در `pubspec.yaml` با `path:` معرفی شده‌اند —
-> آن‌ها را از همان مالک کلون کنید یا مسیرها را به نسخه‌های خودتان تغییر دهید.
-
-```bash
-flutter pub get
-flutter run -d windows          # توسعه
-flutter build windows --release # بیلد نهایی
-```
-
-یا از اسکریپت آماده **`build_windows.bat`** استفاده کنید.
-باینری دیباگ در `build/windows/x64/runner/Debug/` قرار می‌گیرد.
 
 **ورود:** اپ از مخزن نشست محلی استفاده می‌کند — هر ایمیل معتبر به‌همراه رمز
 حداقل ۸ کاراکتری وارد می‌شوید (مثلاً `you@example.com` / `Password123`).
@@ -228,14 +180,7 @@ flutter build windows --release # بیلد نهایی
 - تکمیل هم‌ارزی چندسیستمی (لینوکس / مک)
 - بخش‌های Cloud Sync، Automation و Storage (فعلاً «به‌زودی» در پوسته)
 
-### 📚 مستندات
-
-| فایل | محتوا |
-|---|---|
-| [`AI_CONTEXT.md`](AI_CONTEXT.md) | نقشه کامل معماری برای انسان‌ها و هوش مصنوعی‌ها |
-| [`PACKAGE_PROMPTS.md`](PACKAGE_PROMPTS.md) | پرامپت‌های ساخت و نقشه یکپارچه‌سازی ۶ پکیج همراه |
-| [`AGENT.md`](AGENT.md) | قوانین اجباری کدنویسی |
-| [`README_NATIVE_MIGRATION.md`](README_NATIVE_MIGRATION.md) | یادداشت‌های مهاجرت نیتیو (خارج از فلاتر) |
+## |
 
 ### 📄 لایسنس
 
